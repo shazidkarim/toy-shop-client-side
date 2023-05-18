@@ -1,5 +1,5 @@
 
-
+import logo from '../../../assets/toy shop logo.jpg'
 const NavBar = () => {
     return (
         <div className="navbar bg-base-100">
@@ -23,7 +23,10 @@ const NavBar = () => {
                         <li><a>Item 3</a></li>
                     </ul>
                 </div>
+               <div className='w-1/2 flex'>
+               <img className='w-1/2' src={logo} alt="" />
                 <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+               </div>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">

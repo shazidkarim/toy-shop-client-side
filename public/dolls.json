@@ -6,7 +6,7 @@
             "category": "Barbie Dolls",
             "price": 39.99,
             "rating": 4.9,
-            "picture": "https://example.com/glamour_barbie.jpg",
+            "picture": "https://i.ibb.co/5W02wtT/barbie-dolls-1.webp",
             "available_quantity": 14
           },
           {
@@ -22,7 +22,7 @@
             "category": "American Girl Dolls",
             "price": 49.99,
             "rating": 4.3,
-            "picture": "https://example.com/felicity.jpg",
+            "picture": "https://i.ibb.co/4Sbw8Jc/american-girl-7.jpg",
             "available_quantity": 6
           },
           {
@@ -30,7 +30,7 @@
             "category": "Barbie Dolls",
             "price": 34.99,
             "rating": 4.4,
-            "picture": "https://example.com/surfer_barbie.jpg",
+            "picture": "https://i.ibb.co/pJsdWSy/barbie-dolls-2.jpg",
             "available_quantity": 10
           },
           {
@@ -46,7 +46,7 @@
             "category": "American Girl Dolls",
             "price": 54.99,
             "rating": 4.9,
-            "picture": "https://example.com/samantha.jpg",
+            "picture": "https://i.ibb.co/4MLCjrX/american-doll-1.jpg",
             "available_quantity": 3
           },
           {
@@ -54,7 +54,7 @@
             "category": "Barbie Dolls",
             "price": 29.99,
             "rating": 4.6,
-            "picture": "https://example.com/fashion_runway_barbie.jpg",
+            "picture": "https://i.ibb.co/0nMycps/barbie-dolls-3.jpg",
             "available_quantity": 16
           },
           {
@@ -70,7 +70,7 @@
             "category": "American Girl Dolls",
             "price": 44.99,
             "rating": 4.7,
-            "picture": "https://example.com/melody.jpg",
+            "picture": "https://i.ibb.co/4F4gNMN/american-girl-2.jpg",
             "available_quantity": 5
           },
           {
@@ -78,7 +78,7 @@
             "category": "Barbie Dolls",
             "price": 24.99,
             "rating": 4.3,
-            "picture": "https://example.com/princess_barbie.jpg",
+            "picture": "https://i.ibb.co/6yNbDLB/barbie-dolls-4.jpg",
             "available_quantity": 12
           },
           {
@@ -86,7 +86,7 @@
             "category": "Barbie Dolls",
             "price": 39.99,
             "rating": 4.8,
-            "picture": "https://example.com/dreamhouse_barbie.jpg",
+            "picture": "https://i.ibb.co/60nBLwV/barbie-dolls-5.jpg",
             "available_quantity": 18
           },
           {
@@ -110,7 +110,7 @@
             "category": "Barbie Dolls",
             "price": 34.99,
             "rating": 4.7,
-            "picture": "https://example.com/career_barbie.jpg",
+            "picture": "https://i.ibb.co/C6d7mwm/barbie-dolls-6.jpg",
             "available_quantity": 15
           },
           {
@@ -118,7 +118,7 @@
             "category": "Barbie Dolls",
             "price": 29.99,
             "rating": 4.5,
-            "picture": "https://example.com/fashionista_barbie.jpg",
+            "picture": "https://i.ibb.co/vXSNBHf/barbie-dolls-7.jpg",
             "available_quantity": 20
           },
           {
@@ -142,7 +142,7 @@
             "category": "American Girl Dolls",
             "price": 49.99,
             "rating": 4.4,
-            "picture": "https://example.com/julie.jpg",
+            "picture": "https://i.ibb.co/3pGTzgy/american-girl-3.webp",
             "available_quantity": 8
           },
          
@@ -151,7 +151,7 @@
             "category": "American Girl Dolls",
             "price": 49.99,
             "rating": 4.6,
-            "picture": "https://example.com/grace.jpg",
+            "picture": "https://i.ibb.co/T4V3mgW/american-girl-4.jpg",
             "available_quantity": 12
           },
           {
@@ -159,7 +159,7 @@
             "category": "American Girl Dolls",
             "price": 54.99,
             "rating": 4.8,
-            "picture": "https://example.com/isabelle.jpg",
+            "picture": "https://i.ibb.co/txSY3hH/american-girl-6.jpg",
             "available_quantity": 7
           }
     ]
