@@ -1,6 +1,4 @@
-{
-    "dolls":[
-
+[
         {
             "name": "Glamour Barbie",
             "category": "Barbie Dolls",
@@ -162,5 +160,5 @@
             "picture": "https://i.ibb.co/txSY3hH/american-girl-6.jpg",
             "available_quantity": 7
           }
-    ]
-}
+    
+        ]
