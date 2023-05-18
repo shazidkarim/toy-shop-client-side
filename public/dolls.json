@@ -1,0 +1,166 @@
+{
+    "dolls":[
+
+        {
+            "name": "Glamour Barbie",
+            "category": "Barbie Dolls",
+            "price": 39.99,
+            "rating": 4.9,
+            "picture": "https://example.com/glamour_barbie.jpg",
+            "available_quantity": 14
+          },
+          {
+            "name": "Cuddle Buddy",
+            "category": "Baby Dolls",
+            "price": 19.99,
+            "rating": 4.4,
+            "picture": "https://i.ibb.co/9cjkkMf/baby-dols-1.jpg",
+            "available_quantity": 6
+          },
+          {
+            "name": "Felicity",
+            "category": "American Girl Dolls",
+            "price": 49.99,
+            "rating": 4.3,
+            "picture": "https://example.com/felicity.jpg",
+            "available_quantity": 6
+          },
+          {
+            "name": "Surfer Barbie",
+            "category": "Barbie Dolls",
+            "price": 34.99,
+            "rating": 4.4,
+            "picture": "https://example.com/surfer_barbie.jpg",
+            "available_quantity": 10
+          },
+          {
+            "name": "Giggly Gabby",
+            "category": "Baby Dolls",
+            "price": 34.99,
+            "rating": 4.6,
+            "picture": "https://i.ibb.co/pxwnsvG/baby-dolls-2.webp",
+            "available_quantity": 12
+          },
+          {
+            "name": "Samantha",
+            "category": "American Girl Dolls",
+            "price": 54.99,
+            "rating": 4.9,
+            "picture": "https://example.com/samantha.jpg",
+            "available_quantity": 3
+          },
+          {
+            "name": "Fashion Runway Barbie",
+            "category": "Barbie Dolls",
+            "price": 29.99,
+            "rating": 4.6,
+            "picture": "https://example.com/fashion_runway_barbie.jpg",
+            "available_quantity": 16
+          },
+          {
+            "name": "Giggly Grace",
+            "category": "Baby Dolls",
+            "price": 29.99,
+            "rating": 4.7,
+            "picture": "https://i.ibb.co/NnhX4cR/baby-dolls-3.jpg",
+            "available_quantity": 11
+          },
+          {
+            "name": "Melody",
+            "category": "American Girl Dolls",
+            "price": 44.99,
+            "rating": 4.7,
+            "picture": "https://example.com/melody.jpg",
+            "available_quantity": 5
+          },
+          {
+            "name": "Princess Barbie",
+            "category": "Barbie Dolls",
+            "price": 24.99,
+            "rating": 4.3,
+            "picture": "https://example.com/princess_barbie.jpg",
+            "available_quantity": 12
+          },
+          {
+            "name": "Dreamhouse Barbie",
+            "category": "Barbie Dolls",
+            "price": 39.99,
+            "rating": 4.8,
+            "picture": "https://example.com/dreamhouse_barbie.jpg",
+            "available_quantity": 18
+          },
+          {
+            "name": "Playful Patty",
+            "category": "Baby Dolls",
+            "price": 24.99,
+            "rating": 4.1,
+            "picture": "https://i.ibb.co/Ks7LYVg/baby-dolls-4.webp",
+            "available_quantity": 9
+          },
+          {
+            "name": "Sweet Pea",
+            "category": "Baby Dolls",
+            "price": 24.99,
+            "rating": 4.5,
+            "picture": "https://i.ibb.co/t8JDj0M/baby-dolls-5.jpg",
+            "available_quantity": 10
+          },
+          {
+            "name": "Career Barbie",
+            "category": "Barbie Dolls",
+            "price": 34.99,
+            "rating": 4.7,
+            "picture": "https://example.com/career_barbie.jpg",
+            "available_quantity": 15
+          },
+          {
+            "name": "Fashionista Barbie",
+            "category": "Barbie Dolls",
+            "price": 29.99,
+            "rating": 4.5,
+            "picture": "https://example.com/fashionista_barbie.jpg",
+            "available_quantity": 20
+          },
+          {
+            "name": "Sweet Dreams",
+            "category": "Baby Dolls",
+            "price": 29.99,
+            "rating": 4.3,
+            "picture": "https://i.ibb.co/LpB02GH/baby-dolls-6.webp",
+            "available_quantity": 8
+          },
+          {
+            "name": "Little Lulu",
+            "category": "Baby Dolls",
+            "price": 19.99,
+            "rating": 4.2,
+            "picture": "https://i.ibb.co/0qWnpGq/baby-dolls-7.jpg",
+            "available_quantity": 15
+          },
+          {
+            "name": "Julie",
+            "category": "American Girl Dolls",
+            "price": 49.99,
+            "rating": 4.4,
+            "picture": "https://example.com/julie.jpg",
+            "available_quantity": 8
+          },
+         
+          {
+            "name": "Grace",
+            "category": "American Girl Dolls",
+            "price": 49.99,
+            "rating": 4.6,
+            "picture": "https://example.com/grace.jpg",
+            "available_quantity": 12
+          },
+          {
+            "name": "Isabelle",
+            "category": "American Girl Dolls",
+            "price": 54.99,
+            "rating": 4.8,
+            "picture": "https://example.com/isabelle.jpg",
+            "available_quantity": 7
+          }
+    ]
+}
