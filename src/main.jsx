@@ -9,12 +9,12 @@ import {
 } from "react-router-dom";
 import router from './Routes/Routes.jsx';
 import ReactModal from 'react-modal';
-
-ReactModal.setAppElement('#root'); 
+import AuthProvider from './providers/AuthProvider.jsx';
+ReactModal.setAppElement('#root');
 ReactDOM.createRoot(document.getElementById('root')).render(
   <div className='max-w-7xl mx-auto'>
     <React.StrictMode>
-   <RouterProvider router={router} />
-  </React.StrictMode>
+      <AuthProvider><RouterProvider router={router} /></AuthProvider>
+    </React.StrictMode>
   </div>,
 )
