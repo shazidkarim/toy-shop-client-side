@@ -12,26 +12,26 @@ const NavBar = () => {
                     <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                         <li> <Link to={'/'}>Home</Link> </li>
                         <li> <Link to={'/blog'}>Blog</Link> </li>
-                        <li> <Link to={'/'}>All Toys</Link> </li>
-                        <li> <Link to={'/'}>Login</Link> </li>
+                        <li> <Link to={'/alltoys'}>All Toys</Link> </li>
+                        <li> <Link to={'/login'}>Login</Link> </li>
 
                     </ul>
                 </div>
                 <div className='w-1/2 flex'>
                     <img className='w-1/2' src={logo} alt="" />
-                    <h2 className='font-black text-3xl m-auto text-[#e2bb21]'>TOY SHOP</h2>
+                    <h2 className='font-black text-3xl m-auto text-primary'>TOY SHOP</h2>
                 </div>
             </div>
             <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal text-2xl px-1 text-[#e2bb21] mr-4">
+                <ul className="menu menu-horizontal text-2xl px-1 text-primary mr-4">
                     <li> <Link to={'/'}>Home</Link> </li>
                     <li> <Link to={'/blog'}>Blog</Link> </li>
-                    <li> <Link to={'/'}>All Toys</Link> </li>
-                    <li> <Link to={'/'}>Login</Link> </li>
+                    <li> <Link to={'/alltoys'}>All Toys</Link> </li>
+                    <li> <Link to={'/login'}>Login</Link> </li>
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn btn-outline btn-warning text-[#e2bb21]">Get started</a>
+                <a className="btn btn-outline btn-warning ">Get started</a>
             </div>
         </div>
     );

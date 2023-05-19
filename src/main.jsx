@@ -8,7 +8,9 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import router from './Routes/Routes.jsx';
+import ReactModal from 'react-modal';
 
+ReactModal.setAppElement('#root'); 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <div className='max-w-7xl mx-auto'>
     <React.StrictMode>

@@ -31,7 +31,7 @@ const Category = () => {
     }, {});
 
     return (
-        <div className="mt-8">
+        <div className="mt-8 mb-6 p-4 bg-sky-100">
             <div className="text-center">
                 <h2 className="text-5xl mb-8">Our category</h2>
             </div>
