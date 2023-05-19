@@ -15,6 +15,7 @@ const Login = () => {
         .then(result=>{
             const loggedUser = result.user;
             console.log(loggedUser);
+            navigate(from,{replace: true});
         })
         .catch(error=>{
             console.log(error)

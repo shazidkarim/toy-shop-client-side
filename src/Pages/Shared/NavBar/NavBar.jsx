@@ -9,7 +9,7 @@ const NavBar = () => {
     const handleSignOut = () => {
         logOut()
             .then(result => {
-
+                console.log(result);
             })
             .catch(error =>
                 console.error(error))
@@ -51,14 +51,15 @@ const NavBar = () => {
                         <li> <Link to={'/login'}>Login</Link> </li>
                     )}
                     {user && (
-                        <span>
-                            {user.photoURL} <button className='btn btn-primary' onClick={handleSignOut}>Log out</button>
+                        <span className='flex'>
+                            <img src={user.photoURL} alt="User" title={user.displayName} className="w-8 h-8 rounded-full mr-2 m-auto" />
+                             <button className='btn btn-primary' onClick={handleSignOut}>Log out</button>
                         </span>
                     )}
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn btn-outline btn-warning ">Get started</a>
+                <p>.</p>
             </div>
         </div>
     );
