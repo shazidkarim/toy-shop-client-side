@@ -1,184 +1,203 @@
 [
-        {
-            "_id":"1",
-            "name": "Glamour Barbie",
-            "category": "Barbie Dolls",
-            "price": 39.99,
-            "rating": 4.9,
-            "picture": "https://i.ibb.co/5W02wtT/barbie-dolls-1.webp",
-            "available_quantity": 14
-          },
-          {
-            "_id":"2",
-            "name": "Cuddle Buddy",
-            "category": "Baby Dolls",
-            "price": 19.99,
-            "rating": 4.4,
-            "picture": "https://i.ibb.co/9cjkkMf/baby-dols-1.jpg",
-            "available_quantity": 6
-          },
-          {
-            "_id":"3",
-            "name": "Felicity",
-            "category": "American Girl Dolls",
-            "price": 49.99,
-            "rating": 4.3,
-            "picture": "https://i.ibb.co/4Sbw8Jc/american-girl-7.jpg",
-            "available_quantity": 6
-          },
-          {
-            "_id":"4",
-            "name": "Surfer Barbie",
-            "category": "Barbie Dolls",
-            "price": 34.99,
-            "rating": 4.4,
-            "picture": "https://i.ibb.co/pJsdWSy/barbie-dolls-2.jpg",
-            "available_quantity": 10
-          },
-          {
-            "_id":"5",
-            "name": "Giggly Gabby",
-            "category": "Baby Dolls",
-            "price": 34.99,
-            "rating": 4.6,
-            "picture": "https://i.ibb.co/pxwnsvG/baby-dolls-2.webp",
-            "available_quantity": 12
-          },
-          {
-            "_id":"6",
-            "name": "Samantha",
-            "category": "American Girl Dolls",
-            "price": 54.99,
-            "rating": 4.9,
-            "picture": "https://i.ibb.co/4MLCjrX/american-doll-1.jpg",
-            "available_quantity": 3
-          },
-          {
-            "_id":"7",
-            "name": "Fashion Runway Barbie",
-            "category": "Barbie Dolls",
-            "price": 29.99,
-            "rating": 4.6,
-            "picture": "https://i.ibb.co/0nMycps/barbie-dolls-3.jpg",
-            "available_quantity": 16
-          },
-          {
-            "_id":"8",
-            "name": "Giggly Grace",
-            "category": "Baby Dolls",
-            "price": 29.99,
-            "rating": 4.7,
-            "picture": "https://i.ibb.co/NnhX4cR/baby-dolls-3.jpg",
-            "available_quantity": 11
-          },
-          {
-            "_id":"9",
-            "name": "Melody",
-            "category": "American Girl Dolls",
-            "price": 44.99,
-            "rating": 4.7,
-            "picture": "https://i.ibb.co/4F4gNMN/american-girl-2.jpg",
-            "available_quantity": 5
-          },
-          {
-            "_id":"10",
-            "name": "Princess Barbie",
-            "category": "Barbie Dolls",
-            "price": 24.99,
-            "rating": 4.3,
-            "picture": "https://i.ibb.co/6yNbDLB/barbie-dolls-4.jpg",
-            "available_quantity": 12
-          },
-          {
-            "_id":"11",
-            "name": "Dreamhouse Barbie",
-            "category": "Barbie Dolls",
-            "price": 39.99,
-            "rating": 4.8,
-            "picture": "https://i.ibb.co/60nBLwV/barbie-dolls-5.jpg",
-            "available_quantity": 18
-          },
-          {
-            "_id":"12",
-            "name": "Playful Patty",
-            "category": "Baby Dolls",
-            "price": 24.99,
-            "rating": 4.1,
-            "picture": "https://i.ibb.co/Ks7LYVg/baby-dolls-4.webp",
-            "available_quantity": 9
-          },
-          {
-            "_id":"13",
-            "name": "Sweet Pea",
-            "category": "Baby Dolls",
-            "price": 24.99,
-            "rating": 4.5,
-            "picture": "https://i.ibb.co/t8JDj0M/baby-dolls-5.jpg",
-            "available_quantity": 10
-          },
-          {
-            "_id":"14",
-            "name": "Career Barbie",
-            "category": "Barbie Dolls",
-            "price": 34.99,
-            "rating": 4.7,
-            "picture": "https://i.ibb.co/C6d7mwm/barbie-dolls-6.jpg",
-            "available_quantity": 15
-          },
-          {
-            "_id":"15",
-            "name": "Fashionista Barbie",
-            "category": "Barbie Dolls",
-            "price": 29.99,
-            "rating": 4.5,
-            "picture": "https://i.ibb.co/vXSNBHf/barbie-dolls-7.jpg",
-            "available_quantity": 20
-          },
-          {
-            "_id":"16",
-            "name": "Sweet Dreams",
-            "category": "Baby Dolls",
-            "price": 29.99,
-            "rating": 4.3,
-            "picture": "https://i.ibb.co/LpB02GH/baby-dolls-6.webp",
-            "available_quantity": 8
-          },
-          {
-            "_id":"17",
-            "name": "Little Lulu",
-            "category": "Baby Dolls",
-            "price": 19.99,
-            "rating": 4.2,
-            "picture": "https://i.ibb.co/0qWnpGq/baby-dolls-7.jpg",
-            "available_quantity": 15
-          },
-          {
-            "_id":"18",
-            "name": "Julie",
-            "category": "American Girl Dolls",
-            "price": 49.99,
-            "rating": 4.4,
-            "picture": "https://i.ibb.co/3pGTzgy/american-girl-3.webp",
-            "available_quantity": 8
-          },
-         
-          {
-            "_id":"19",
-            "name": "Grace",
-            "category": "American Girl Dolls",
-            "price": 49.99,
-            "rating": 4.6,
-            "picture": "https://i.ibb.co/T4V3mgW/american-girl-4.jpg",
-            "available_quantity": 12
-          },
-          {
-            "_id":"20",
-            "name": "Isabelle",
-            "category": "American Girl Dolls",
-            "price": 54.99,
-            "rating": 4.8,
-            "picture": "https://i.ibb.co/txSY3hH/american-girl-6.jpg",
-            "available_quantity": 7
-          }
+  {
+    "doll_id": "1",
+    "name": "Glamour Barbie",
+    "category": "Barbie Dolls",
+    "price": 39.99,
+    "rating": 4.9,
+    "picture": "https://i.ibb.co/5W02wtT/barbie-dolls-1.webp",
+    "available_quantity": 14,
+    "description": "The Glamour Barbie doll is dressed in a stylish outfit and ready for a night out. She comes with accessories and a brush for styling her long hair."
+  },
+  {
+    "doll_id": "2",
+    "name": "Cuddle Buddy",
+    "category": "Baby Dolls",
+    "price": 19.99,
+    "rating": 4.4,
+    "picture": "https://i.ibb.co/9cjkkMf/baby-dols-1.jpg",
+    "available_quantity": 6,
+    "description": "The Cuddle Buddy baby doll is perfect for snuggling and cuddling. It features a soft body and comes with a pacifier and a cozy blanket."
+  },
+  {
+    "doll_id": "3",
+    "name": "Felicity",
+    "category": "American Girl Dolls",
+    "price": 49.99,
+    "rating": 4.3,
+    "picture": "https://i.ibb.co/4Sbw8Jc/american-girl-7.jpg",
+    "available_quantity": 6,
+    "description": "Felicity is an American Girl doll from the colonial era. She comes with a historically accurate outfit and accessories that reflect her time period."
+  },
+  {
+    "doll_id": "4",
+    "name": "Surfer Barbie",
+    "category": "Barbie Dolls",
+    "price": 34.99,
+    "rating": 4.4,
+    "picture": "https://i.ibb.co/pJsdWSy/barbie-dolls-2.jpg",
+    "available_quantity": 10,
+    "description": "Surfer Barbie is ready to catch some waves! She comes with a surfboard, sunglasses, and a beach-inspired outfit for endless beach fun."
+  },
+  {
+    "doll_id": "5",
+    "name": "Giggly Gabby",
+    "category": "Baby Dolls",
+    "price": 34.99,
+    "rating": 4.6,
+    "picture": "https://i.ibb.co/pxwnsvG/baby-dolls-2.webp",
+    "available_quantity": 12,
+    "description": "Giggly Gabby is an adorable baby doll that giggles when you tickle her. She comes with a cute outfit and interactive features for lots of giggling fun."
+  },
+  {
+    "doll_id": "6",
+    "name": "Samantha",
+    "category": "American Girl Dolls",
+    "price": 54.99,
+    "rating": 4.9,
+    "picture": "https://i.ibb.co/4MLCjrX/american-doll-1.jpg",
+    "available_quantity": 3,
+    "description": "Samantha is an American Girl doll from the Victorian era. She comes with a beautiful Victorian-style dress and accessories, allowing kids to imagine life in the past."
+  },
+  {
+    "doll_id": "7",
+    "name": "Fashion Runway Barbie",
+    "category": "Barbie Dolls",
+    "price": 29.99,
+    "rating": 4.6,
+    "picture": "https://i.ibb.co/0nMycps/barbie-dolls-3.jpg",
+    "available_quantity": 16,
+    "description": "The Fashion Runway Barbie is dressed in a stylish outfit and ready for a night out. She comes with accessories and a brush for styling her long hair."
+  },
+  {
+    "doll_id": "8",
+    "name": "Giggly Grace",
+    "category": "Baby Dolls",
+    "price": 29.99,
+    "rating": 4.7,
+    "picture": "https://i.ibb.co/NnhX4cR/baby-dolls-3.jpg",
+    "available_quantity": 11,
+    "description": "Giggly Grace baby doll is perfect for snuggling and cuddling. It features a soft body and comes with a pacifier and a cozy blanket."
+  },
+  {
+    "doll_id": "9",
+    "name": "Melody",
+    "category": "American Girl Dolls",
+    "price": 44.99,
+    "rating": 4.7,
+    "picture": "https://i.ibb.co/4F4gNMN/american-girl-2.jpg",
+    "available_quantity": 5,
+    "description": "Melody is a talented dancer and artist. She comes with a ballet outfit, accessories, and a book that tells her inspiring story of pursuing her passions."
+  },
+  {
+    "doll_id": "10",
+    "name": "Princess Barbie",
+    "category": "Barbie Dolls",
+    "price": 24.99,
+    "rating": 4.3,
+    "picture": "https://i.ibb.co/6yNbDLB/barbie-dolls-4.jpg",
+    "available_quantity": 12,
+    "description": "Princess Barbie doll is dressed in a stylish outfit and ready for a night out. She comes with accessories and a brush for styling her long hair."
+  },
+  {
+    "doll_id": "11",
+    "name": "Dreamhouse Barbie",
+    "category": "Barbie Dolls",
+    "price": 39.99,
+    "rating": 4.8,
+    "picture": "https://i.ibb.co/60nBLwV/barbie-dolls-5.jpg",
+    "available_quantity": 18,
+    "description": "Princess Barbie doll is dressed in a stylish outfit and ready for a night out. She comes with accessories and a brush for styling her long hair."
+  },
+  {
+    "doll_id": "12",
+    "name": "Playful Patty",
+    "category": "Baby Dolls",
+    "price": 24.99,
+    "rating": 4.1,
+    "picture": "https://i.ibb.co/Ks7LYVg/baby-dolls-4.webp",
+    "available_quantity": 9,
+    "description": "Giggly Grace baby doll is perfect for snuggling and cuddling. It features a soft body and comes with a pacifier and a cozy blanket."
     
-        ]
+  },
+  {
+    "doll_id": "13",
+    "name": "Sweet Pea",
+    "category": "Baby Dolls",
+    "price": 24.99,
+    "rating": 4.5,
+    "picture": "https://i.ibb.co/t8JDj0M/baby-dolls-5.jpg",
+    "available_quantity": 10,
+    "description": "Giggly Grace baby doll is perfect for snuggling and cuddling. It features a soft body and comes with a pacifier and a cozy blanket."
+  },
+  {
+    "doll_id": "14",
+    "name": "Career Barbie",
+    "category": "Barbie Dolls",
+    "price": 34.99,
+    "rating": 4.7,
+    "picture": "https://i.ibb.co/C6d7mwm/barbie-dolls-6.jpg",
+    "available_quantity": 15,
+    "description": "Princess Barbie doll is dressed in a stylish outfit and ready for a night out. She comes with accessories and a brush for styling her long hair."
+  },
+  {
+    "doll_id": "15",
+    "name": "Fashionista Barbie",
+    "category": "Barbie Dolls",
+    "price": 29.99,
+    "rating": 4.5,
+    "picture": "https://i.ibb.co/vXSNBHf/barbie-dolls-7.jpg",
+    "available_quantity": 20,
+    "description": "Princess Barbie doll is dressed in a stylish outfit and ready for a night out. She comes with accessories and a brush for styling her long hair."
+  },
+  {
+    "doll_id": "16",
+    "name": "Sweet Dreams",
+    "category": "Baby Dolls",
+    "price": 29.99,
+    "rating": 4.3,
+    "picture": "https://i.ibb.co/LpB02GH/baby-dolls-6.webp",
+    "available_quantity": 8,
+    "description": "Giggly Grace baby doll is perfect for snuggling and cuddling. It features a soft body and comes with a pacifier and a cozy blanket."
+  },
+  {
+    "doll_id": "17",
+    "name": "Little Lulu",
+    "category": "Baby Dolls",
+    "price": 19.99,
+    "rating": 4.2,
+    "picture": "https://i.ibb.co/0qWnpGq/baby-dolls-7.jpg",
+    "available_quantity": 15,
+    "description": "Giggly Grace baby doll is perfect for snuggling and cuddling. It features a soft body and comes with a pacifier and a cozy blanket."
+  },
+  {
+    "doll_id": "18",
+    "name": "Julie",
+    "category": "American Girl Dolls",
+    "price": 49.99,
+    "rating": 4.4,
+    "picture": "https://i.ibb.co/3pGTzgy/american-girl-3.webp",
+    "available_quantity": 8,
+    "description": "Julie is an American Girl doll from the 1970s. She has long, straight blond hair and comes with a retro-inspired outfit that reflects the fashion of the time."
+  },
+  {
+    "doll_id": "19",
+    "name": "Grace",
+    "category": "American Girl Dolls",
+    "price": 49.99,
+    "rating": 4.6,
+    "picture": "https://i.ibb.co/T4V3mgW/american-girl-4.jpg",
+    "available_quantity": 12,
+    "description": "Grace is an American Girl doll who is passionate about baking. She comes with a chef's outfit, a baking set, and a storybook that follows her baking adventures."
+  },
+  {
+    "doll_id": "20",
+    "name": "Isabelle",
+    "category": "American Girl Dolls",
+    "price": 54.99,
+    "rating": 4.8,
+    "picture": "https://i.ibb.co/txSY3hH/american-girl-6.jpg",
+    "available_quantity": 7,
+    "description": "Isabelle is a talented dancer and artist. She comes with a ballet outfit, accessories, and a book that tells her inspiring story of pursuing her passions."
+  }
+]

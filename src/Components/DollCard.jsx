@@ -7,7 +7,7 @@ import './DollCard.css'
 
 
 const DollCard = ({ doll }) => {
-  const { picture, name, price, rating, category } = doll;
+  const { picture, name, price, rating, category,description } = doll;
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const handleOpenModal = () => {
@@ -44,6 +44,7 @@ const DollCard = ({ doll }) => {
           <p>Price: ${price}</p>
           <p>Rating: {rating}</p>
           <p>Category: {category}</p>
+          <p>DECRIPTION: {description}</p>
           <button onClick={handleCloseModal}>Close</button>
         </div>
       </ReactModal>

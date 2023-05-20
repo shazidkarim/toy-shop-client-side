@@ -9,7 +9,7 @@ const Category = () => {
     const [dolls, setDolls] = useState([]);
 
     useEffect(() => {
-        fetch('dolls.json')
+        fetch('http://localhost:5000/dolls')
             .then(res => res.json())
             .then(data => {
                 setDolls(data);
@@ -51,7 +51,7 @@ const Category = () => {
                     <TabPanel key={category}>
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4" data-aos="fade-up" data-aos-duration="1000">
                             {dolls.map(doll => (
-                                <DollCard key={doll._id} doll={doll} />
+                                <DollCard key={doll.doll_id} doll={doll} />
                             ))}
                         </div>
                     </TabPanel>

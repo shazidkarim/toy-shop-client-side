@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import loginphoto from '../../assets/login photo.jpg'
 import { useContext, useState } from 'react';
