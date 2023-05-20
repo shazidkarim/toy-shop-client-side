@@ -27,6 +27,7 @@ const UpdateToys = () => {
             quantity
 
         }
+        form.reset();
         console.log(updatedToy);
         fetch(`http://localhost:5000/addtoy/${_id}`, {
             method: 'PUT',
@@ -38,8 +39,9 @@ const UpdateToys = () => {
             .then(res => res.json())
             .then(data => {
                 console.log(data);
-                if (data.modifyCount>0) {
+                if (data.modifiedCount>0) {
                     alert('toy updated successfully')
+                    
                 }
             })
     }

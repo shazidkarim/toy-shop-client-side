@@ -25,6 +25,7 @@ const AddToy = () => {
             quantity            
 
         }
+        form.reset();
         console.log(add);
         fetch('http://localhost:5000/addtoy',{
             method:'POST',
