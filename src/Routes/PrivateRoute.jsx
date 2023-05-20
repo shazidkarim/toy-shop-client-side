@@ -10,11 +10,9 @@ const PrivateRoute = ({children}) => {
     console.log(location)
 
     if (loding) {
-        return <div className='text-center mt-4'>
-             <span>Loading...</span>
-        </div>
+        return <progress className="progress w-56"></progress>
     }
-    if (user) {
+    if (user?.email) {
         return children;
     }
     return <Navigate to={'/login'} state={{from:location}} replace></Navigate>;

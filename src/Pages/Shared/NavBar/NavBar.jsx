@@ -5,7 +5,7 @@ import { AuthContext } from '../../../providers/AuthProvider';
 import { useContext } from 'react';
 const NavBar = () => {
     const { user, logOut } = useContext(AuthContext);
-    console.log(user)
+    // console.log(user)
     const handleSignOut = () => {
         logOut()
             .then(result => {
@@ -25,10 +25,21 @@ const NavBar = () => {
                         <li> <Link to={'/'}>Home</Link> </li>
                         <li> <Link to={'/blog'}>Blog</Link> </li>
                         <li> <Link to={'/alltoys'}>All Toys</Link> </li>
-                        <li> <Link to={'/mytoys'}>My Toys</Link> </li>
-                        <li> <Link to={'/addtoy'}>Add a toys</Link> </li>
-                        <li> <Link to={'/login'}>Login</Link> </li>
-
+                        {user && (
+                            <>
+                                <li> <Link to={'/mytoys'}>My Toys</Link> </li>
+                                <li> <Link to={'/addtoy'}>Add a Toy</Link> </li>
+                            </>
+                        )}
+                        {!user && (
+                            <li> <Link to={'/login'}>Login</Link> </li>
+                        )}
+                        {user && (
+                            <span className='flex'>
+                                <img src={user.photoURL} alt="User" title={user.displayName} className="w-8 h-8 rounded-full mr-2 m-auto" />
+                                <button className='btn btn-primary' onClick={handleSignOut}>Log out</button>
+                            </span>
+                        )}
                     </ul>
                 </div>
                 <div className='w-1/2 flex'>
@@ -53,7 +64,7 @@ const NavBar = () => {
                     {user && (
                         <span className='flex'>
                             <img src={user.photoURL} alt="User" title={user.displayName} className="w-8 h-8 rounded-full mr-2 m-auto" />
-                             <button className='btn btn-primary' onClick={handleSignOut}>Log out</button>
+                            <button className='btn btn-primary' onClick={handleSignOut}>Log out</button>
                         </span>
                     )}
                 </ul>
