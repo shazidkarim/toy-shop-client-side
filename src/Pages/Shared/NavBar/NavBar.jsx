@@ -26,7 +26,7 @@ const NavBar = () => {
                         <li> <Link to={'/blog'}>Blog</Link> </li>
                         <li> <Link to={'/alltoys'}>All Toys</Link> </li>
                         <li> <Link to={'/mytoys'}>My Toys</Link> </li>
-                        <li> <Link to={'/addtoys'}>Add a toys</Link> </li>
+                        <li> <Link to={'/addtoy'}>Add a toys</Link> </li>
                         <li> <Link to={'/login'}>Login</Link> </li>
 
                     </ul>
@@ -44,7 +44,7 @@ const NavBar = () => {
                     {user && (
                         <>
                             <li> <Link to={'/mytoys'}>My Toys</Link> </li>
-                            <li> <Link to={'/addtoys'}>Add a Toy</Link> </li>
+                            <li> <Link to={'/addtoy'}>Add a Toy</Link> </li>
                         </>
                     )}
                     {!user && (
