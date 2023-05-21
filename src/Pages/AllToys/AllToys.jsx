@@ -3,14 +3,14 @@ import AllToysRow from "./AllToysRow";
 
 const AllToys = () => {
   const [dolls, setDolls] = useState([]);
-  const [searchQuery, setSearchQuery] = useState('');
+  const [searchQuery, setSearchQuery] = useState("");
 
   useEffect(() => {
     const fetchDolls = async () => {
       try {
-        const res = await fetch('http://localhost:5000/dolls');
+        const res = await fetch("http://localhost:5000/dolls");
         if (!res.ok) {
-          throw new Error('Failed to fetch dolls.');
+          throw new Error("Failed to fetch dolls.");
         }
         const data = await res.json();
         setDolls(data);
@@ -28,11 +28,11 @@ const AllToys = () => {
 
   return (
     <div className="overflow-x-auto w-full text-center">
-        <h1 className=" text-blue-500 mb-5 mt-8 text-2xl">search by toy name</h1>
+      <h1 className="text-blue-500 mb-5 mt-8 text-2xl">Search by toy name</h1>
       <div className="mb-4 m-auto text-center">
         <input
           type="text"
-          placeholder=" toy name"
+          placeholder="Toy name"
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
           className="px-4 py-2 border border-gray-900 rounded-md mb-4 focus:outline-none focus:ring-2 focus:ring-blue-500"
