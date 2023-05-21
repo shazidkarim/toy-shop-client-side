@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import  { useContext } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import { AuthContext } from '../../providers/AuthProvider';
 
@@ -27,7 +27,6 @@ const UpdateToys = () => {
             quantity
 
         }
-        form.reset();
         console.log(updatedToy);
         fetch(`http://localhost:5000/addtoy/${_id}`, {
             method: 'PUT',
