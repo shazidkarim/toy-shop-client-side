@@ -17,6 +17,7 @@ const Login = () => {
             const loggedUser = result.user;
             console.log(loggedUser);
             navigate(from,{replace: true});
+            window.alert("log in successful!");
         })
         .catch(error=>{
             console.log(error)

@@ -20,9 +20,11 @@ const SignUp = () => {
         .then(result=>{
             const user = result.user;
             console.log(user)
+            window.alert("Sign up successful!");
         })
         .catch(error=>{
             console.log(error);
+            window.alert("Sign up failed. Please try again.");
         })
     }
     return (
