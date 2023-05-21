@@ -9,7 +9,7 @@ const Category = () => {
     const [dolls, setDolls] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/dolls')
+        fetch('https://toy-marketplace-server-side-shazidkarim.vercel.app/dolls')
             .then(res => res.json())
             .then(data => {
                 setDolls(data);

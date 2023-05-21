@@ -27,7 +27,7 @@ const AddToy = () => {
         }
         form.reset();
         console.log(add);
-        fetch('http://localhost:5000/addtoy',{
+        fetch('https://toy-marketplace-server-side-shazidkarim.vercel.app/addtoy',{
             method:'POST',
             headers:{
                 'content-type':'application/json'

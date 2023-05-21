@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useContext, useEffect, useState } from "react";
 import { AuthContext } from "../../providers/AuthProvider";
 import MyToysRow from "./MyToysRow";
@@ -6,7 +7,7 @@ const MyToys = () => {
   const { user } = useContext(AuthContext);
   const [addtoys, setAddToys] = useState([]);
   const [sortOrder, setSortOrder] = useState("asc"); // Default sorting order is ascending
-  const url = `http://localhost:5000/addtoy?email=${user?.email}`;
+  const url = `https://toy-marketplace-server-side-shazidkarim.vercel.app/addtoy?email=${user?.email}`;
 
   useEffect(() => {
     fetch(url)
@@ -20,7 +21,7 @@ const MyToys = () => {
   const handleDelete = (id) => {
     const proceed = confirm("Are you sure you want to delete?");
     if (proceed) {
-      fetch(`http://localhost:5000/addtoy/${id}`, {
+      fetch(`https://toy-marketplace-server-side-shazidkarim.vercel.app/addtoy/${id}`, {
         method: "DELETE",
       })
         .then((res) => res.json())

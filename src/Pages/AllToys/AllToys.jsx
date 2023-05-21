@@ -8,7 +8,7 @@ const AllToys = () => {
   useEffect(() => {
     const fetchDolls = async () => {
       try {
-        const res = await fetch("http://localhost:5000/dolls");
+        const res = await fetch("https://toy-marketplace-server-side-shazidkarim.vercel.app/dolls");
         if (!res.ok) {
           throw new Error("Failed to fetch dolls.");
         }
